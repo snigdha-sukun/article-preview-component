@@ -121,6 +121,7 @@ I still need to practice the positioning an element & `@media`. I need to practi
 ### Useful resources
 
 - [Responsice Tooltip](https://www.youtube.com/watch?v=IEywhi4w5Ts) - This helped me in creating the required tooltip. It helped me make the tooltip responsive.
+- [Using SVG](https://css-tricks.com/using-svg/) - This helped me style my SVG component.
 
 ## Author
 
