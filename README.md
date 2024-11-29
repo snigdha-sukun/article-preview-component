@@ -61,7 +61,7 @@ I learned that we can put svg inside the html itself and manipulate the colors a
 I learned how to create reponsive tooltip using CSS:
 
 ```html
-<div id="share-button">
+<div id="share-button" class="tooltip">
   <div class="social-media" id="social-media-options">
     S H A R E
     <img src="./images/icon-facebook.svg" alt="facebook">
@@ -80,6 +80,9 @@ I learned how to create reponsive tooltip using CSS:
     }
 
     .social-media {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
     z-index: 1;
     transform: translateX(-50%);
@@ -97,6 +100,11 @@ I learned how to create reponsive tooltip using CSS:
         border-style: solid;
         border-color: var(--very-dark-grayish-blue) transparent transparent transparent;
 }
+```
+
+```js
+const shareOptions = document.getElementById('social-media-options');
+shareOptions.style.display = 'flex'
 ```
 
 I learned how to use media query in js for different size screens
