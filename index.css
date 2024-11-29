@@ -93,10 +93,6 @@ h1{
     cursor: pointer;
 }
 
-.share_icon_path {
-    fill: var(--desaturated-dark-blue);
-}
-
 .social-media {
     background-color: var(--very-dark-grayish-blue);
     color: white;
@@ -132,10 +128,6 @@ h1{
     .drawers {
         width: 40em;
         border-radius: 2em 0 0 2em;
-    }
-
-    .tooltip {
-        position: relative;
     }
 
     .social-media {
